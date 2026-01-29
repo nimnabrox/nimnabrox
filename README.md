@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋 I'm Nimna</h1>
+<h1 align="center">Hi 👋 I'm NimnaBro</h1>
 <h3 align="center">🎮 Game Designer & Developer | 🛠️ Systems & Tools Builder | 🚀 Digital Creator</h3>
 
 <p align="center">
