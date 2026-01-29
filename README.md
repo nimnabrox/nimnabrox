@@ -30,8 +30,8 @@ From concept → structure → working product.
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOURUSERNAME&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=nimnabro&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img src="https://streak-stats.demolab.com?user=nimnabro&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
@@ -39,7 +39,7 @@ From concept → structure → working product.
 ### 🌍 Socials & Links
 <p align="center">
   <a href="https://guns.lol/nimnabro">
-    <img src="https://img.shields.io/badge/All%20Socials%20%26%20Links-000000?style=for-the-badge&logo=about-dot-me&logoColor=white"/>
+    <img src="https://img.shields.io/badge/All%20Socials%20%26%20Links-000000?style=for-the-badge"/>
   </a>
 </p>
 
