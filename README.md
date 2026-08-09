@@ -1,92 +1,154 @@
 <div align="center">
 
-# NimnaBro
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=240&color=0:0D1117,50:161B22,100:0D1117&text=NIMNABRO&fontColor=FF4D4D&fontSize=52&fontAlignY=38&desc=GAME%20SYSTEMS%20%7C%20UEFN%20%7C%20WEB%20%7C%20AUTOMATION&descColor=F0F6FC&descAlignY=60&descSize=16&animation=fadeIn&stroke=FF4D4D" alt="NimnaBro — Game Systems, UEFN, Web and Automation" />
 
-### Game Systems Developer · UEFN Creator · Web & Automation Builder
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2800&pause=900&color=FF4D4D&center=true&vCenter=true&width=760&lines=%24+whoami+%E2%86%92+Game+Systems+Developer;%24+build+%E2%86%92+UEFN+%7C+Web+%7C+Automation;%24+location+%E2%86%92+Sri+Lanka;%24+status+%E2%86%92+Always+building" alt="Typing introduction" />
 
-Building interactive experiences, creator tools, and reliable digital systems from Sri Lanka.
+[![Website](https://img.shields.io/badge/WEBSITE-NIMNABRO.COM-FF4D4D?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117)](https://www.nimnabro.com/)
+[![Fortnite](https://img.shields.io/badge/FORTNITE-PLAY_MY_ISLANDS-FF4D4D?style=for-the-badge&logo=fortnite&logoColor=white&labelColor=0D1117)](https://www.fortnite.com/@nimnabro?lang=en-US)
+[![Email](https://img.shields.io/badge/EMAIL-LET'S_TALK-FF4D4D?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:nimnabrocontact@gmail.com)
 
-[![Website](https://img.shields.io/badge/Website-nimnabro.com-6C63FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.nimnabro.com/)
-[![Fortnite](https://img.shields.io/badge/Fortnite-UEFN_Creator-2E72D2?style=for-the-badge&logo=fortnite&logoColor=white)](https://www.fortnite.com/@nimnabro?lang=en-US)
-[![YouTube](https://img.shields.io/badge/YouTube-NimnaBro-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@nimna_bro_)
+![Profile views](https://komarev.com/ghpvc/?username=nimnabrox&style=flat-square&color=FF4D4D&label=PROFILE+VIEWS)
+![GitHub followers](https://img.shields.io/github/followers/nimnabrox?style=flat-square&color=FF4D4D&labelColor=0D1117&logo=github)
 
 </div>
 
-## About Me
+## `> whoami`
 
-I design and build **interactive systems**, not just isolated pieces of code. My work spans Fortnite and UEFN gameplay, web platforms, multiplayer and server tools, streaming utilities, and automation software.
+I design and build **interactive systems**—from gameplay mechanics and UEFN experiences to web platforms, server utilities, and creator automation. I care about the complete build: the idea, the structure behind it, and the experience people actually use.
 
-When a project needs a new technology, I learn what is required and turn the idea into a working product—from the first concept and system structure to the final user experience.
+```text
+ROLE      Game Systems Developer · UEFN Creator · Web & Automation Builder
+BASED     Sri Lanka 🇱🇰
+FOCUS     Games · Systems · Tools · Servers · Interfaces
+MINDSET   Learn what the build needs, then make it work
+```
 
-- 🎮 Designing gameplay mechanics and replayable UEFN experiences
-- 🧩 Building connected systems, interfaces, and progression loops
-- 🌐 Developing web platforms, dashboards, and online services
-- 🛠️ Creating practical tools for creators, communities, and servers
-- ⚡ Automating repetitive workflows and deployment tasks
+## `> cat focus.json`
 
-## Selected Work
+| Area | What I build |
+| :--- | :--- |
+| 🎮 **Game Design** | Gameplay mechanics, progression loops, and replayable experiences |
+| 🧩 **System Architecture** | Connected systems that stay clear, reliable, and maintainable |
+| 🌐 **Server Development** | Multiplayer utilities and community-facing services |
+| 🖥️ **Game & Tool UI** | Interfaces that make complex features easy to use |
+| ⚡ **Automation** | Practical tools that remove repetitive work |
 
-| Project | What it is | Link |
-| --- | --- | --- |
-| **NimnaBro UEFN Islands** | Published Fortnite experiences featuring competitive, progression, and community-driven gameplay | [View islands](https://www.fortnite.com/@nimnabro?lang=en-US) |
-| **Goldstone Launcher** | A custom game launcher and player-facing utility for the Goldstone RP community | [View repository](https://github.com/nimnabrox/goldstonelauncher) |
-| **NimnaBro Platform** | My central website for games, projects, services, tools, and creator content | [Visit website](https://www.nimnabro.com/) |
-| **Creator Tooling** | Streaming, multi-chat, TTS, overlay, and workflow tools built for practical creator use | In development |
-
-## Technologies & Tools
+## `> ls toolkit/`
 
 <div align="center">
 
-![UEFN](https://img.shields.io/badge/UEFN-18181B?style=for-the-badge&logo=fortnite&logoColor=white)
-![Verse](https://img.shields.io/badge/Verse-117CEE?style=for-the-badge&logoColor=white)
-![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=111111)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,html,css&theme=dark" alt="TypeScript, JavaScript, React, Next.js, Node.js, HTML and CSS" />
+<br />
+<img src="https://skillicons.dev/icons?i=supabase,docker,linux,git,github,unreal&theme=dark" alt="Supabase, Docker, Linux, Git, GitHub and Unreal Engine" />
+<br /><br />
+
+![UEFN](https://img.shields.io/badge/UEFN-FF4D4D?style=flat-square&logo=fortnite&logoColor=white&labelColor=0D1117)
+![Verse](https://img.shields.io/badge/VERSE-FF4D4D?style=flat-square&logoColor=white&labelColor=0D1117)
+![Game Systems](https://img.shields.io/badge/GAME_SYSTEMS-FF4D4D?style=flat-square&logo=unrealengine&logoColor=white&labelColor=0D1117)
+![Automation](https://img.shields.io/badge/AUTOMATION-FF4D4D?style=flat-square&logo=githubactions&logoColor=white&labelColor=0D1117)
 
 </div>
 
-## Creator Highlights
+## `> ls featured-builds/`
 
-- 🏆 **Top 10 worldwide** — Fortnite Showdown Creator Leaderboard
-- 🇱🇰 **#1 in Sri Lanka** — Fortnite Showdown Creator Leaderboard
-- 🤝 **Epic Games Support-A-Creator Partner** — Creator Code: `nimnabro`
+<details open>
+<summary><b>▶ Goldstone County Launcher — community game utility</b></summary>
+
+<br />
+
+An all-in-one Windows launcher built to get Goldstone County RP players into the game faster and help them recover from common RedM issues.
+
+| | |
+| :--- | :--- |
+| **Built for** | Goldstone County RP, Sri Lanka |
+| **Features** | One-click joining, TeamSpeak setup, RedM repair tools, cache cleanup, and automatic updates |
+| **My contribution** | Designed and developed the player-facing launcher and its supporting workflow |
+| **Explore** | [Repository](https://github.com/nimnabrox/goldstonelauncher) · [Latest release](https://github.com/nimnabrox/goldstonelauncher/releases/latest) · [User guide](https://guidegoldstonerplauncher.netlify.app/) |
+
+</details>
+
+<details>
+<summary><b>▶ NimnaBro UEFN Islands — playable Fortnite experiences</b></summary>
+
+<br />
+
+Published Fortnite experiences built around competitive play, progression, and community-driven gameplay.
+
+| | |
+| :--- | :--- |
+| **Platform** | Unreal Editor for Fortnite (UEFN) |
+| **Focus** | Game systems, mechanics, UI, balance, and replayability |
+| **Explore** | [Play my islands on Fortnite](https://www.fortnite.com/@nimnabro?lang=en-US) |
+
+</details>
+
+<details>
+<summary><b>▶ NimnaBro.com — my creator and project hub</b></summary>
+
+<br />
+
+My central home for games, development work, creator content, and everything I am building next.
+
+| | |
+| :--- | :--- |
+| **Focus** | Personal brand, projects, games, and community |
+| **Explore** | [Visit nimnabro.com](https://www.nimnabro.com/) |
+
+</details>
+
+## `> cat creator-highlights.log`
+
+- 🏆 **Top 10 worldwide** on the Fortnite Showdown Creator Leaderboard
+- 🇱🇰 **#1 in Sri Lanka** on the Fortnite Showdown Creator Leaderboard
+- 🤝 **Epic Games Support-A-Creator Partner** — creator code `nimnabro`
 - 🗺️ Published UEFN creator with multiple playable Fortnite islands
 
-## GitHub Activity
+## `> ./github-analytics`
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=nimnabrox&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="NimnaBro's GitHub statistics" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nimnabrox&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="NimnaBro's most used languages" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nimnabrox&theme=github_dark" alt="NimnaBro's GitHub statistics" />
+<img height="170" src="https://streak-stats.demolab.com?user=nimnabrox&hide_border=true&background=0D1117&ring=FF4D4D&fire=FFA657&currStreakLabel=FF4D4D&sideLabels=F0F6FC&dates=8B949E&currStreakNum=F0F6FC&sideNums=F0F6FC" alt="NimnaBro's GitHub contribution streak" />
+
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=nimnabrox&bg_color=0D1117&color=F0F6FC&line=FF4D4D&point=FFA657&area=true&area_color=FF4D4D&hide_border=true" alt="NimnaBro's GitHub activity graph" />
 
 </div>
 
-## Connect
+## `> cat current-focus.yaml`
+
+```yaml
+building:
+  - gameplay systems and UEFN experiences
+  - tools for creators, players, and online communities
+  - web utilities and workflow automation
+
+improving:
+  - multiplayer and server architecture
+  - responsive interfaces for games and tools
+  - the path from rough idea to reliable product
+
+open_to:
+  - creative collaborations
+  - game and tool development projects
+  - interesting problems that need a working solution
+```
+
+## `> ./connect --with-me`
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/Website-6C63FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.nimnabro.com/)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@nimna_bro_)
-[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@nimnabro)
-[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/nimnabro)
-[![Kick](https://img.shields.io/badge/Kick-53FC18?style=for-the-badge&logo=kick&logoColor=111111)](https://kick.com/nimnabro)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/nimna_bro_)
+[![Website](https://img.shields.io/badge/WEBSITE-FF4D4D?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117)](https://www.nimnabro.com/)
+[![YouTube](https://img.shields.io/badge/YOUTUBE-FF4D4D?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0D1117)](https://www.youtube.com/@nimna_bro_)
+[![TikTok](https://img.shields.io/badge/TIKTOK-FF4D4D?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=0D1117)](https://www.tiktok.com/@nimnabro)
+[![Twitch](https://img.shields.io/badge/TWITCH-FF4D4D?style=for-the-badge&logo=twitch&logoColor=white&labelColor=0D1117)](https://www.twitch.tv/nimnabro)
+[![Kick](https://img.shields.io/badge/KICK-FF4D4D?style=for-the-badge&logo=kick&logoColor=white&labelColor=0D1117)](https://kick.com/nimnabro)
+[![X](https://img.shields.io/badge/X-FF4D4D?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117)](https://x.com/nimna_bro_)
 
-</div>
+<br />
 
----
+### Building interactive worlds, useful tools, and systems that work.
 
-<div align="center">
-
-**Building interactive worlds, useful tools, and systems that work.**
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=FF4D4D" alt="" />
 
 </div>
