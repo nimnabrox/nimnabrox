@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
+  <title id="title">NimnaBro interactive system map</title>
+  <desc id="desc">An animated network connecting game systems, UEFN worlds, web platforms, server tools, and automation.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.48" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#130526"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="0.45" stop-color="#2979FF"/>
+      <stop offset="0.72" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#FF2BD6"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#172554"/>
+      <stop offset="0.55" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#130526"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#67E8F9" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="3" y="3" width="1194" height="404" rx="24"/></clipPath>
+  </defs>
+
+  <rect x="3" y="3" width="1194" height="404" rx="24" fill="url(#background)"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="410" fill="url(#grid)"/>
+    <circle cx="600" cy="212" r="235" fill="#2979FF" opacity="0.025">
+      <animate attributeName="r" values="205;255;205" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.02;0.06;0.02" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="50" y="43" fill="#F8FAFC" font-size="15" font-weight="700" letter-spacing="3">INTERACTIVE SYSTEM MAP</text>
+    <g transform="translate(1008 23)">
+      <rect width="142" height="30" rx="15" fill="#0B1020" stroke="#00E5FF" stroke-opacity="0.6"/>
+      <circle cx="18" cy="15" r="4" fill="#00E5FF" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="33" y="20" fill="#BAE6FD" font-size="11" font-weight="700" letter-spacing="1.5">SYSTEMS LIVE</text>
+    </g>
+  </g>
+
+  <g fill="none" stroke-width="2" stroke-linecap="round">
+    <path d="M500 174 C430 150 370 116 310 112" stroke="#00E5FF" stroke-opacity="0.55" stroke-dasharray="7 12">
+      <animate attributeName="stroke-dashoffset" values="0;-38" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M500 238 C430 260 370 292 310 296" stroke="#2979FF" stroke-opacity="0.55" stroke-dasharray="7 12">
+      <animate attributeName="stroke-dashoffset" values="0;-38" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M700 174 C770 150 830 116 890 112" stroke="#8B5CF6" stroke-opacity="0.55" stroke-dasharray="7 12">
+      <animate attributeName="stroke-dashoffset" values="0;38" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M700 238 C770 260 830 292 890 296" stroke="#FF2BD6" stroke-opacity="0.55" stroke-dasharray="7 12">
+      <animate attributeName="stroke-dashoffset" values="0;38" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M600 275 V330" stroke="url(#neon)" stroke-opacity="0.7" stroke-dasharray="6 10">
+      <animate attributeName="stroke-dashoffset" values="0;-32" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle r="4" fill="#00E5FF"><animateMotion dur="2.4s" repeatCount="indefinite" path="M500 174 C430 150 370 116 310 112"/></circle>
+    <circle r="4" fill="#2979FF"><animateMotion dur="2.8s" repeatCount="indefinite" path="M310 296 C370 292 430 260 500 238"/></circle>
+    <circle r="4" fill="#8B5CF6"><animateMotion dur="2.6s" repeatCount="indefinite" path="M890 112 C830 116 770 150 700 174"/></circle>
+    <circle r="4" fill="#FF2BD6"><animateMotion dur="2.2s" repeatCount="indefinite" path="M700 238 C770 260 830 292 890 296"/></circle>
+    <circle r="4" fill="#00E5FF"><animateMotion dur="2s" repeatCount="indefinite" path="M600 275 V330"/></circle>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <g transform="translate(55 76)">
+      <rect width="255" height="72" rx="16" fill="#0B1020" stroke="#00E5FF" stroke-opacity="0.65"/>
+      <rect x="0" y="0" width="5" height="72" rx="3" fill="#00E5FF"/>
+      <circle cx="30" cy="26" r="5" fill="#00E5FF"><animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="47" y="30" fill="#F8FAFC" font-size="15" font-weight="700" letter-spacing="1.4">GAME SYSTEMS</text>
+      <text x="30" y="53" fill="#94A3B8" font-size="12">mechanics · progression · UI</text>
+    </g>
+
+    <g transform="translate(55 260)">
+      <rect width="255" height="72" rx="16" fill="#0B1020" stroke="#2979FF" stroke-opacity="0.65"/>
+      <rect x="0" y="0" width="5" height="72" rx="3" fill="#2979FF"/>
+      <circle cx="30" cy="26" r="5" fill="#2979FF"><animate attributeName="opacity" values="0.35;1;0.35" dur="2.3s" repeatCount="indefinite"/></circle>
+      <text x="47" y="30" fill="#F8FAFC" font-size="15" font-weight="700" letter-spacing="1.4">UEFN WORLDS</text>
+      <text x="30" y="53" fill="#94A3B8" font-size="12">play · balance · replayability</text>
+    </g>
+
+    <g transform="translate(890 76)">
+      <rect width="255" height="72" rx="16" fill="#0B1020" stroke="#8B5CF6" stroke-opacity="0.65"/>
+      <rect x="250" y="0" width="5" height="72" rx="3" fill="#8B5CF6"/>
+      <circle cx="30" cy="26" r="5" fill="#8B5CF6"><animate attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/></circle>
+      <text x="47" y="30" fill="#F8FAFC" font-size="15" font-weight="700" letter-spacing="1.4">WEB PLATFORMS</text>
+      <text x="30" y="53" fill="#94A3B8" font-size="12">interfaces · services · communities</text>
+    </g>
+
+    <g transform="translate(890 260)">
+      <rect width="255" height="72" rx="16" fill="#0B1020" stroke="#FF2BD6" stroke-opacity="0.65"/>
+      <rect x="250" y="0" width="5" height="72" rx="3" fill="#FF2BD6"/>
+      <circle cx="30" cy="26" r="5" fill="#FF2BD6"><animate attributeName="opacity" values="0.35;1;0.35" dur="1.9s" repeatCount="indefinite"/></circle>
+      <text x="47" y="30" fill="#F8FAFC" font-size="15" font-weight="700" letter-spacing="1.4">SERVER TOOLS</text>
+      <text x="30" y="53" fill="#94A3B8" font-size="12">multiplayer · utilities · reliability</text>
+    </g>
+
+    <g transform="translate(500 128)">
+      <rect width="200" height="148" rx="28" fill="url(#core)" stroke="url(#neon)" stroke-width="2" filter="url(#softGlow)"/>
+      <rect x="13" y="13" width="174" height="122" rx="20" fill="none" stroke="#A5B4FC" stroke-opacity="0.18" stroke-dasharray="6 9">
+        <animate attributeName="stroke-dashoffset" values="0;-30" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <text x="100" y="62" text-anchor="middle" fill="url(#neon)" font-size="23" font-weight="800" letter-spacing="2">NIMNABRO</text>
+      <text x="100" y="88" text-anchor="middle" fill="#F8FAFC" font-size="11" font-weight="600" letter-spacing="2">CREATOR CORE</text>
+      <text x="100" y="115" text-anchor="middle" fill="#94A3B8" font-size="10" letter-spacing="1">CONCEPT → PRODUCT</text>
+    </g>
+
+    <g transform="translate(470 330)">
+      <rect width="260" height="52" rx="18" fill="#0B1020" stroke="url(#neon)" stroke-opacity="0.75"/>
+      <circle cx="28" cy="26" r="5" fill="#00E5FF" filter="url(#softGlow)">
+        <animate attributeName="r" values="4;7;4" dur="1.7s" repeatCount="indefinite"/>
+      </circle>
+      <text x="48" y="25" fill="#F8FAFC" font-size="14" font-weight="700" letter-spacing="1.5">AUTOMATION LAYER</text>
+      <text x="48" y="41" fill="#94A3B8" font-size="10">workflows · deployment · creator utilities</text>
+    </g>
+  </g>
+
+  <rect x="3" y="3" width="1194" height="404" rx="24" fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.55"/>
+</svg>

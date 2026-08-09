@@ -2,10 +2,6 @@
 
 <img width="100%" src="./assets/neon-header.svg" alt="NimnaBro — Game Systems, UEFN, Web and Automation" />
 
-<br />
-
-<a href="https://www.nimnabro.com/"><img width="145" src="https://avatars.githubusercontent.com/u/257436031?s=290&v=4" alt="NimnaBro neon N logo" /></a>
-
 ### Game Systems Developer · UEFN Creator · Web & Automation Builder
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2800&pause=850&color=00E5FF&center=true&vCenter=true&width=780&lines=%24+whoami+%E2%86%92+Game+Systems+Developer;%24+build+%E2%86%92+UEFN+%7C+Web+%7C+Automation;%24+location+%E2%86%92+Sri+Lanka;%24+status+%E2%86%92+Always+building" alt="Animated introduction" />
@@ -16,6 +12,8 @@
 
 ![Profile views](https://komarev.com/ghpvc/?username=nimnabrox&style=flat-square&color=7C3AED&label=PROFILE+VIEWS)
 ![GitHub followers](https://img.shields.io/github/followers/nimnabrox?style=flat-square&color=0891B2&labelColor=0B1020&logo=github)
+
+<img width="100%" src="./assets/neon-divider.svg" alt="" />
 
 </div>
 
@@ -40,6 +38,14 @@ MINDSET   Learn what the build needs, then make it work
 ![Playtest](https://img.shields.io/badge/04-PLAYTEST-A855F7?style=for-the-badge&labelColor=0B1020)
 ![Ship](https://img.shields.io/badge/05-SHIP-C026D3?style=for-the-badge&labelColor=0B1020)
 ![Iterate](https://img.shields.io/badge/06-ITERATE-DB2777?style=for-the-badge&labelColor=0B1020)
+
+</div>
+
+## `> ./system-map --live`
+
+<div align="center">
+
+<img width="100%" src="./assets/neon-system-map.svg" alt="Animated map connecting NimnaBro's game systems, UEFN worlds, web platforms, server tools, and automation" />
 
 </div>
 
@@ -116,6 +122,12 @@ My central home for games, development work, creator content, and everything I a
 
 </details>
 
+<div align="center">
+
+<img width="100%" src="./assets/neon-divider.svg" alt="" />
+
+</div>
+
 ## `> cat creator-highlights.log`
 
 - 🏆 **Top 10 worldwide** on the Fortnite Showdown Creator Leaderboard
@@ -168,6 +180,8 @@ open_to:
 ## `> ./connect --with-me`
 
 <div align="center">
+
+<img width="100%" src="./assets/neon-divider.svg" alt="" />
 
 [![Website](https://img.shields.io/badge/WEBSITE-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0B1020)](https://www.nimnabro.com/)
 [![YouTube](https://img.shields.io/badge/YOUTUBE-C026D3?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0B1020)](https://www.youtube.com/@nimna_bro_)
