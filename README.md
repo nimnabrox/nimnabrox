@@ -158,6 +158,14 @@ My central home for games, development work, creator content, and everything I a
 
 </div>
 
+## `> ./command-center --status`
+
+<div align="center">
+
+<img width="100%" src="./assets/neon-command-center.svg" alt="Animated NimnaBro command center showing the UEFN pipeline, connected systems, creator automation, and capability status" />
+
+</div>
+
 ## `> cat current-focus.yaml`
 
 ```yaml

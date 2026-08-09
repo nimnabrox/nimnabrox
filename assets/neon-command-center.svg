@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+  <title id="title">NimnaBro command center</title>
+  <desc id="desc">Animated terminal dashboard showing game systems, creator tools, web platforms, and automation capabilities.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.52" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#130526"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="0.42" stop-color="#2979FF"/>
+      <stop offset="0.7" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#FF2BD6"/>
+    </linearGradient>
+    <linearGradient id="barCyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0891B2"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+    <linearGradient id="barViolet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4338CA"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="barPink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A21CAF"/>
+      <stop offset="1" stop-color="#FF2BD6"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#67E8F9" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-100%" width="200%" height="300%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="3" y="3" width="1194" height="364" rx="24"/></clipPath>
+    <clipPath id="cyanBar"><rect x="850" y="139" width="245" height="6" rx="3"/></clipPath>
+    <clipPath id="violetBar"><rect x="850" y="207" width="245" height="6" rx="3"/></clipPath>
+    <clipPath id="pinkBar"><rect x="850" y="275" width="245" height="6" rx="3"/></clipPath>
+  </defs>
+
+  <rect x="3" y="3" width="1194" height="364" rx="24" fill="url(#background)"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="370" fill="url(#grid)"/>
+    <circle cx="1020" cy="180" r="250" fill="#8B5CF6" opacity="0.025">
+      <animate attributeName="r" values="210;270;210" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.015;0.055;0.015" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="-220" y="0" width="160" height="370" fill="url(#neon)" opacity="0.06" transform="skewX(-18)">
+      <animate attributeName="x" values="-220;1400" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <circle cx="35" cy="30" r="5" fill="#FF2BD6"/>
+    <circle cx="53" cy="30" r="5" fill="#8B5CF6"/>
+    <circle cx="71" cy="30" r="5" fill="#00E5FF">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="96" y="35" fill="#F8FAFC" font-size="14" font-weight="700" letter-spacing="2.2">NIMNA // COMMAND CENTER</text>
+    <text x="908" y="35" fill="#64748B" font-size="10" letter-spacing="1.5">BUILD PIPELINE</text>
+    <g transform="translate(1042 19)">
+      <rect width="110" height="23" rx="11.5" fill="#062A35" stroke="#00E5FF" stroke-opacity="0.45"/>
+      <circle cx="16" cy="11.5" r="3.5" fill="#00E5FF" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="1;0.25;1" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="29" y="15" fill="#BAE6FD" font-size="9" font-weight="700" letter-spacing="1.3">READY</text>
+    </g>
+  </g>
+
+  <line x1="28" y1="55" x2="1172" y2="55" stroke="url(#neon)" stroke-width="1" opacity="0.35"/>
+
+  <g font-family="Consolas, Fira Code, monospace">
+    <rect x="34" y="76" width="720" height="238" rx="17" fill="#060A16" stroke="#2979FF" stroke-opacity="0.4"/>
+    <rect x="34" y="76" width="720" height="38" rx="17" fill="#0D1428"/>
+    <path d="M34 97V114H754V97" fill="#0D1428"/>
+    <text x="56" y="101" fill="#64748B" font-size="11" letter-spacing="1.2">creator-core / runtime.log</text>
+    <circle cx="717" cy="95" r="3" fill="#00E5FF">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="56" y="143" fill="#00E5FF" font-size="14">
+      <tspan fill="#8B5CF6">$</tspan><tspan> boot creator-core --mode=build</tspan>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.04;0.08;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="56" y="177" fill="#BAE6FD" font-size="13">
+      <tspan fill="#00E5FF">✓</tspan><tspan> UEFN gameplay pipeline initialized</tspan>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.18;0.22;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="56" y="207" fill="#C4B5FD" font-size="13">
+      <tspan fill="#8B5CF6">✓</tspan><tspan> connected systems and interfaces ready</tspan>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.34;0.38;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="56" y="237" fill="#F5D0FE" font-size="13">
+      <tspan fill="#FF2BD6">✓</tspan><tspan> creator automation layer online</tspan>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5;0.54;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="56" y="277" fill="#F8FAFC" font-size="14">
+      <tspan fill="#00E5FF">›</tspan><tspan> building the next interactive experience</tspan>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.66;0.7;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <rect x="439" y="264" width="8" height="17" rx="1" fill="#00E5FF" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="782" y="76" width="384" height="238" rx="17" fill="#080C1A" stroke="#8B5CF6" stroke-opacity="0.42"/>
+    <text x="808" y="102" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="2">CAPABILITY MATRIX</text>
+
+    <g transform="translate(808 118)">
+      <circle cx="8" cy="8" r="4" fill="#00E5FF" filter="url(#softGlow)"><animate attributeName="opacity" values="1;0.3;1" dur="1.7s" repeatCount="indefinite"/></circle>
+      <text x="25" y="12" fill="#F8FAFC" font-size="12" font-weight="700" letter-spacing="1">GAME SYSTEMS</text>
+      <text x="304" y="12" fill="#67E8F9" font-size="10" text-anchor="end">ACTIVE</text>
+    </g>
+    <rect x="850" y="139" width="245" height="6" rx="3" fill="#172033"/>
+    <g clip-path="url(#cyanBar)">
+      <rect x="850" y="139" width="245" height="6" rx="3" fill="url(#barCyan)">
+        <animate attributeName="width" values="0;232;245;232" keyTimes="0;0.3;0.55;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g transform="translate(808 186)">
+      <circle cx="8" cy="8" r="4" fill="#8B5CF6" filter="url(#softGlow)"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="25" y="12" fill="#F8FAFC" font-size="12" font-weight="700" letter-spacing="1">CREATOR TOOLS</text>
+      <text x="304" y="12" fill="#C4B5FD" font-size="10" text-anchor="end">BUILDING</text>
+    </g>
+    <rect x="850" y="207" width="245" height="6" rx="3" fill="#172033"/>
+    <g clip-path="url(#violetBar)">
+      <rect x="850" y="207" width="220" height="6" rx="3" fill="url(#barViolet)">
+        <animate attributeName="width" values="0;198;220;198" keyTimes="0;0.38;0.62;1" dur="6.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g transform="translate(808 254)">
+      <circle cx="8" cy="8" r="4" fill="#FF2BD6" filter="url(#softGlow)"><animate attributeName="opacity" values="1;0.3;1" dur="2.3s" repeatCount="indefinite"/></circle>
+      <text x="25" y="12" fill="#F8FAFC" font-size="12" font-weight="700" letter-spacing="1">WEB + AUTOMATION</text>
+      <text x="304" y="12" fill="#F5D0FE" font-size="10" text-anchor="end">ONLINE</text>
+    </g>
+    <rect x="850" y="275" width="245" height="6" rx="3" fill="#172033"/>
+    <g clip-path="url(#pinkBar)">
+      <rect x="850" y="275" width="238" height="6" rx="3" fill="url(#barPink)">
+        <animate attributeName="width" values="0;224;238;224" keyTimes="0;0.34;0.58;1" dur="6.3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif" transform="translate(34 333)">
+    <text x="0" y="13" fill="#64748B" font-size="10" letter-spacing="1.8">PIPELINE</text>
+    <text x="78" y="13" fill="#BAE6FD" font-size="10" font-weight="700" letter-spacing="1.4">CONCEPT</text>
+    <text x="147" y="13" fill="#2979FF" font-size="10">→</text>
+    <text x="169" y="13" fill="#A5B4FC" font-size="10" font-weight="700" letter-spacing="1.4">SYSTEM</text>
+    <text x="232" y="13" fill="#8B5CF6" font-size="10">→</text>
+    <text x="254" y="13" fill="#E9D5FF" font-size="10" font-weight="700" letter-spacing="1.4">WORKING PRODUCT</text>
+    <text x="1132" y="13" text-anchor="end" fill="#475569" font-size="9" letter-spacing="1.5">BUILD // TEST // SHIP // ITERATE</text>
+  </g>
+
+  <rect x="3" y="3" width="1194" height="364" rx="24" fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.55"/>
+</svg>
