@@ -1,15 +1,21 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=240&color=0:0D1117,50:161B22,100:0D1117&text=NIMNABRO&fontColor=FF4D4D&fontSize=52&fontAlignY=38&desc=GAME%20SYSTEMS%20%7C%20UEFN%20%7C%20WEB%20%7C%20AUTOMATION&descColor=F0F6FC&descAlignY=60&descSize=16&animation=fadeIn&stroke=FF4D4D" alt="NimnaBro — Game Systems, UEFN, Web and Automation" />
+<img width="100%" src="./assets/neon-header.svg" alt="NimnaBro — Game Systems, UEFN, Web and Automation" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2800&pause=900&color=FF4D4D&center=true&vCenter=true&width=760&lines=%24+whoami+%E2%86%92+Game+Systems+Developer;%24+build+%E2%86%92+UEFN+%7C+Web+%7C+Automation;%24+location+%E2%86%92+Sri+Lanka;%24+status+%E2%86%92+Always+building" alt="Typing introduction" />
+<br />
 
-[![Website](https://img.shields.io/badge/WEBSITE-NIMNABRO.COM-FF4D4D?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117)](https://www.nimnabro.com/)
-[![Fortnite](https://img.shields.io/badge/FORTNITE-PLAY_MY_ISLANDS-FF4D4D?style=for-the-badge&logo=fortnite&logoColor=white&labelColor=0D1117)](https://www.fortnite.com/@nimnabro?lang=en-US)
-[![Email](https://img.shields.io/badge/EMAIL-LET'S_TALK-FF4D4D?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:nimnabrocontact@gmail.com)
+<a href="https://www.nimnabro.com/"><img width="145" src="https://avatars.githubusercontent.com/u/257436031?s=290&v=4" alt="NimnaBro neon N logo" /></a>
 
-![Profile views](https://komarev.com/ghpvc/?username=nimnabrox&style=flat-square&color=FF4D4D&label=PROFILE+VIEWS)
-![GitHub followers](https://img.shields.io/github/followers/nimnabrox?style=flat-square&color=FF4D4D&labelColor=0D1117&logo=github)
+### Game Systems Developer · UEFN Creator · Web & Automation Builder
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2800&pause=850&color=00E5FF&center=true&vCenter=true&width=780&lines=%24+whoami+%E2%86%92+Game+Systems+Developer;%24+build+%E2%86%92+UEFN+%7C+Web+%7C+Automation;%24+location+%E2%86%92+Sri+Lanka;%24+status+%E2%86%92+Always+building" alt="Animated introduction" />
+
+[![Website](https://img.shields.io/badge/WEBSITE-NIMNABRO.COM-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0B1020)](https://www.nimnabro.com/)
+[![Fortnite](https://img.shields.io/badge/FORTNITE-PLAY_MY_ISLANDS-7C3AED?style=for-the-badge&logo=fortnite&logoColor=white&labelColor=0B1020)](https://www.fortnite.com/@nimnabro?lang=en-US)
+[![Email](https://img.shields.io/badge/EMAIL-LET'S_TALK-C026D3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1020)](mailto:nimnabrocontact@gmail.com)
+
+![Profile views](https://komarev.com/ghpvc/?username=nimnabrox&style=flat-square&color=7C3AED&label=PROFILE+VIEWS)
+![GitHub followers](https://img.shields.io/github/followers/nimnabrox?style=flat-square&color=0891B2&labelColor=0B1020&logo=github)
 
 </div>
 
@@ -23,6 +29,19 @@ BASED     Sri Lanka 🇱🇰
 FOCUS     Games · Systems · Tools · Servers · Interfaces
 MINDSET   Learn what the build needs, then make it work
 ```
+
+## `> ./build-loop`
+
+<div align="center">
+
+![Idea](https://img.shields.io/badge/01-IDEA-0891B2?style=for-the-badge&labelColor=0B1020)
+![System](https://img.shields.io/badge/02-SYSTEM-2563EB?style=for-the-badge&labelColor=0B1020)
+![Prototype](https://img.shields.io/badge/03-PROTOTYPE-7C3AED?style=for-the-badge&labelColor=0B1020)
+![Playtest](https://img.shields.io/badge/04-PLAYTEST-A855F7?style=for-the-badge&labelColor=0B1020)
+![Ship](https://img.shields.io/badge/05-SHIP-C026D3?style=for-the-badge&labelColor=0B1020)
+![Iterate](https://img.shields.io/badge/06-ITERATE-DB2777?style=for-the-badge&labelColor=0B1020)
+
+</div>
 
 ## `> cat focus.json`
 
@@ -43,10 +62,10 @@ MINDSET   Learn what the build needs, then make it work
 <img src="https://skillicons.dev/icons?i=supabase,docker,linux,git,github,unreal&theme=dark" alt="Supabase, Docker, Linux, Git, GitHub and Unreal Engine" />
 <br /><br />
 
-![UEFN](https://img.shields.io/badge/UEFN-FF4D4D?style=flat-square&logo=fortnite&logoColor=white&labelColor=0D1117)
-![Verse](https://img.shields.io/badge/VERSE-FF4D4D?style=flat-square&logoColor=white&labelColor=0D1117)
-![Game Systems](https://img.shields.io/badge/GAME_SYSTEMS-FF4D4D?style=flat-square&logo=unrealengine&logoColor=white&labelColor=0D1117)
-![Automation](https://img.shields.io/badge/AUTOMATION-FF4D4D?style=flat-square&logo=githubactions&logoColor=white&labelColor=0D1117)
+![UEFN](https://img.shields.io/badge/UEFN-2563EB?style=flat-square&logo=fortnite&logoColor=white&labelColor=0B1020)
+![Verse](https://img.shields.io/badge/VERSE-7C3AED?style=flat-square&logoColor=white&labelColor=0B1020)
+![Game Systems](https://img.shields.io/badge/GAME_SYSTEMS-C026D3?style=flat-square&logo=unrealengine&logoColor=white&labelColor=0B1020)
+![Automation](https://img.shields.io/badge/AUTOMATION-0891B2?style=flat-square&logo=githubactions&logoColor=white&labelColor=0B1020)
 
 </div>
 
@@ -108,10 +127,22 @@ My central home for games, development work, creator content, and everything I a
 
 <div align="center">
 
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nimnabrox&theme=github_dark" alt="NimnaBro's GitHub statistics" />
-<img height="170" src="https://streak-stats.demolab.com?user=nimnabrox&hide_border=true&background=0D1117&ring=FF4D4D&fire=FFA657&currStreakLabel=FF4D4D&sideLabels=F0F6FC&dates=8B949E&currStreakNum=F0F6FC&sideNums=F0F6FC" alt="NimnaBro's GitHub contribution streak" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nimnabrox&theme=radical" alt="NimnaBro's GitHub statistics" />
+<img height="170" src="https://streak-stats.demolab.com?user=nimnabrox&hide_border=true&background=0B1020&ring=00E5FF&fire=FF2BD6&currStreakLabel=00E5FF&sideLabels=F8FAFC&dates=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC" alt="NimnaBro's GitHub contribution streak" />
 
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=nimnabrox&bg_color=0D1117&color=F0F6FC&line=FF4D4D&point=FFA657&area=true&area_color=FF4D4D&hide_border=true" alt="NimnaBro's GitHub activity graph" />
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=nimnabrox&bg_color=0B1020&color=F8FAFC&line=00E5FF&point=FF2BD6&area=true&area_color=8B5CF6&hide_border=true" alt="NimnaBro's GitHub activity graph" />
+
+</div>
+
+## `> ./contribution-snake --neon`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nimnabrox/nimnabrox/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nimnabrox/nimnabrox/output/github-snake.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/nimnabrox/nimnabrox/output/github-snake-dark.svg" alt="Animated snake moving through NimnaBro's GitHub contributions" />
+</picture>
 
 </div>
 
@@ -138,17 +169,17 @@ open_to:
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/WEBSITE-FF4D4D?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1117)](https://www.nimnabro.com/)
-[![YouTube](https://img.shields.io/badge/YOUTUBE-FF4D4D?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0D1117)](https://www.youtube.com/@nimna_bro_)
-[![TikTok](https://img.shields.io/badge/TIKTOK-FF4D4D?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=0D1117)](https://www.tiktok.com/@nimnabro)
-[![Twitch](https://img.shields.io/badge/TWITCH-FF4D4D?style=for-the-badge&logo=twitch&logoColor=white&labelColor=0D1117)](https://www.twitch.tv/nimnabro)
-[![Kick](https://img.shields.io/badge/KICK-FF4D4D?style=for-the-badge&logo=kick&logoColor=white&labelColor=0D1117)](https://kick.com/nimnabro)
-[![X](https://img.shields.io/badge/X-FF4D4D?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117)](https://x.com/nimna_bro_)
+[![Website](https://img.shields.io/badge/WEBSITE-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0B1020)](https://www.nimnabro.com/)
+[![YouTube](https://img.shields.io/badge/YOUTUBE-C026D3?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0B1020)](https://www.youtube.com/@nimna_bro_)
+[![TikTok](https://img.shields.io/badge/TIKTOK-7C3AED?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=0B1020)](https://www.tiktok.com/@nimnabro)
+[![Twitch](https://img.shields.io/badge/TWITCH-7C3AED?style=for-the-badge&logo=twitch&logoColor=white&labelColor=0B1020)](https://www.twitch.tv/nimnabro)
+[![Kick](https://img.shields.io/badge/KICK-0891B2?style=for-the-badge&logo=kick&logoColor=white&labelColor=0B1020)](https://kick.com/nimnabro)
+[![X](https://img.shields.io/badge/X-2563EB?style=for-the-badge&logo=x&logoColor=white&labelColor=0B1020)](https://x.com/nimna_bro_)
 
 <br />
 
 ### Building interactive worlds, useful tools, and systems that work.
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=FF4D4D" alt="" />
+<img width="100%" src="./assets/neon-footer.svg" alt="Build, play, iterate" />
 
 </div>

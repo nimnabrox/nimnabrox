@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">NimnaBro</title>
+  <desc id="desc">Animated dark neon banner for a game systems developer and UEFN creator.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.5" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#130526"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="0.45" stop-color="#2979FF"/>
+      <stop offset="0.72" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#FF2BD6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.15 0;0.15 0;-0.15 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow">
+      <stop offset="0" stop-color="#00E5FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pinkGlow">
+      <stop offset="0" stop-color="#FF2BD6" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#FF2BD6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#67E8F9" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect x="3" y="3" width="1194" height="314" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <rect x="3" y="3" width="1194" height="314" rx="28" fill="url(#background)"/>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <circle cx="120" cy="60" r="260" fill="url(#cyanGlow)">
+      <animate attributeName="r" values="220;290;220" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.65;1;0.65" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1080" cy="275" r="280" fill="url(#pinkGlow)">
+      <animate attributeName="r" values="280;225;280" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.6;1" dur="9s" repeatCount="indefinite"/>
+    </circle>
+
+    <g fill="none" stroke-width="2" opacity="0.3">
+      <path d="M-40 255 L220 55 L390 205 L615 -10" stroke="#00E5FF">
+        <animateTransform attributeName="transform" type="translate" values="-35 0;35 0;-35 0" dur="12s" repeatCount="indefinite"/>
+      </path>
+      <path d="M780 340 L930 125 L1080 220 L1240 20" stroke="#FF2BD6">
+        <animateTransform attributeName="transform" type="translate" values="30 0;-30 0;30 0" dur="10s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <g opacity="0.2">
+      <polygon points="60,280 230,110 360,280" fill="#00E5FF">
+        <animate attributeName="opacity" values="0.08;0.24;0.08" dur="5s" repeatCount="indefinite"/>
+      </polygon>
+      <polygon points="840,310 1040,75 1180,310" fill="#8B5CF6">
+        <animate attributeName="opacity" values="0.22;0.07;0.22" dur="6s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+
+    <rect x="-260" y="0" width="170" height="320" fill="url(#neon)" opacity="0.09" transform="skewX(-18)">
+      <animate attributeName="x" values="-260;1420" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="3" y="3" width="1194" height="314" rx="28" fill="none" stroke="url(#neon)" stroke-width="3" opacity="0.8"/>
+
+  <g text-anchor="middle" font-family="Segoe UI, Arial, sans-serif">
+    <text x="600" y="144" fill="url(#neon)" font-size="72" font-weight="800" letter-spacing="11" filter="url(#glow)">NIMNABRO</text>
+    <text x="600" y="196" fill="#F8FAFC" font-size="19" font-weight="600" letter-spacing="4">GAME SYSTEMS  •  UEFN  •  WEB  •  AUTOMATION</text>
+    <text x="600" y="239" fill="#A5B4FC" font-size="14" letter-spacing="3">BUILDING INTERACTIVE WORLDS FROM SRI LANKA</text>
+  </g>
+
+  <g transform="translate(522 274)" filter="url(#softGlow)">
+    <circle cx="0" cy="0" r="4" fill="#00E5FF">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="16" y="-2" width="38" height="4" rx="2" fill="#2979FF"/>
+    <rect x="62" y="-2" width="38" height="4" rx="2" fill="#8B5CF6"/>
+    <circle cx="116" cy="0" r="4" fill="#FF2BD6">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
