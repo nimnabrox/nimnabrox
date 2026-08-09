@@ -23,17 +23,18 @@ jobs:
       - name: Generate neon snake animations
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: \${{ github.repository_owner }}
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
             dist/github-snake.svg?color_snake=#8B5CF6&color_dots=#EBF5FF,#BAE6FD,#67E8F9,#8B5CF6,#FF2BD6
             dist/github-snake-dark.svg?color_snake=#00E5FF&color_dots=#0B1020,#172554,#1D4ED8,#8B5CF6,#FF2BD6
         env:
-          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish animations to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: \${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
           publish_dir: ./dist
           commit_message: "Update contribution snake [skip ci]"
